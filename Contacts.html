@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="foodcss.css" />
+    <script src="scripts.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="burgermenu">
+        <a href="#burger" onclick="openbox('burger'); return false">
+          <img src="Picture/burger.png" />
+        </a>
+      </div>
+      <div id="burger">
+        <a href="#burger" onclick="openbox('burger'); return false">
+          <img src="Picture/burgerexit.png" />
+        </a>
+        <div class="menu">
+          <a href="Main.html">Главная</a>
+          <a href="Company.html">О компании</a>
+          <a href="Contacts.html">Бронь</a>
+          <a href="Cook.html">Как мы готовим</a>
+        </div>
+        <div class="burgerreg">
+          <a href="">Вход</a>
+          <a href="">Регистрация</a>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="Main.html"><img src="Picture/Logo.png" /></a>
+      </div>
+
+      <nav>
+        <a href="Main.html">Главная</a>
+        <a href="Company.html">О компании</a>
+        <a href="Contacts.html">Бронь</a>
+        <a href="Cook.html">Как мы готовим</a>
+      </nav>
+      <div class="reg">
+        <a href="">Вход</a>
+        <a href="">Регистрация</a>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="main2">    
+        <div class="text">
+          <h1>Забронируй столик!</h1>
+          <p>Запланировали поход в наш ресторан?
+            <br>Бронируйте столики прямо сейчас!
+          </p> 
+          <p>При бронировании столика - комплимент от нашего ресторана в подарок!</p>
+          <h2>Наши контакты</h2>
+          <a href="https://yandex.ru/maps/-/CDFcUIoI"><p><img src="Picture/map.png"> г.Ульяновск, ул. Урицкого 31в</p></a>
+          <a href="tel:+79991112233"><p><img src="Picture/phone.png">+7-999-111-22-33</p></a>
+          <a href="https://vk.com/tiotsosal"><p><img src="Picture/vk.png">Наш вк</p></a>
+        </div>
+        <div class="bron">
+          <h1>Забронировать столик</h1>
+          <input class="name" type="text" placeholder="Имя" />
+          <input class="name" type="text" placeholder="Фамилия" />
+          <input class="name" type="text" placeholder="Телефон" />
+          <input class="name" type="text" placeholder="Комментарий" />
+          <button>Отправить</button>
+        </div>
+      </div>  
+    
+      <footer>
+        <a href="Main.html"><img src="Picture/Logo.png" /></a>  
+        <nav>
+          <a href="Main.html">Главная</a>
+          <a href="Company.html">О компании</a>
+          <a href="Contacts.html">Бронь</a>
+          <a href="Cook.html">Как мы готовим</a>
+        </nav>
+        <div class="tel">
+          <a href="tel:+79991112233">+7-999-111-22-33</a>
+        </div>
+      </footer>   
+    </div>
+  </div>
+  </body>
+</html>

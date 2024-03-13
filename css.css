@@ -1,0 +1,913 @@
+* {
+  margin: 0px;
+}
+
+* a{
+  text-decoration:none ;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+header a img {
+  width: 145px;
+  height: 79px;
+}
+
+header a {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  padding: 0;
+  list-style: none;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+header nav {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 1317px;
+  height: 47px;
+  margin-left: 70px;
+  margin-top: 26px;
+}
+
+.reg {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  margin-left: 3%;
+  padding: 0px;
+  background-color: #7f6a51;
+  border-radius: 15px;
+  width: 236px;
+  height: 47px;
+  margin-right: 48px;
+  margin-top: 26px;
+  padding-top: px;
+}
+.burgermenu {
+  display: none;
+}
+.reg a {
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #ffffff;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.burger {
+  display: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+  display: flex;
+  margin-top: 84px;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+}
+
+#filtrs {
+  font-family: "Roboto", sans-serif;
+  margin-top: 89px;
+  height: 395px;
+  width: 423px;
+  background-color: #7f6a51;
+  border-radius: 30px;
+  margin-left: 60px;
+}
+
+#filtrsclose {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  margin-top: 89px;
+  height: 395px;
+  width: 423px;
+  background-color: ;
+  border-radius: 30px;
+  margin-left: 60px;
+  background-color: transparent;
+}
+
+#filtrsclose button {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #28221f;
+  background-color: #7f6a51;
+  height: 31px;
+  width: 124px;
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: none;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+#filtrs h1 {
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+#filtrs p {
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  margin: 0px;
+  margin-left: 27px;
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+.price {
+  display: flex;
+  margin-top: 38px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 27px;
+}
+
+.price input::placeholder {
+  text-align: center;
+}
+
+.min {
+  width: 124px;
+  border-radius: 15px;
+  margin: 0px;
+  height: 31px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.max {
+  width: 124px;
+  border-radius: 15px;
+  margin: 0px;
+  height: 31px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+
+.sostav {
+  margin-top: 80px;
+  align-content: left;
+}
+
+.sostav form {
+  margin: 0px;
+}
+
+.sostav form {
+  margin-top: 14px;
+  text-align: left;
+  margin-left: 27px;
+}
+
+.sostav input::placeholder {
+  text-align: center;
+}
+
+.sostavc {
+  width: 124px;
+  border-radius: 15px;
+  height: 31px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+#filtrs button {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  height: 31px;
+  width: 124px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: none;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.filtrs button:active {
+  border-color: #28221f;
+  color: #28221f;
+}
+
+.cards {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  font-family: "Roboto", sans-serif;
+  height: 802px;
+  width: 475px;
+  margin: 0px;
+  background-color: #28221f;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.card img {
+  margin-top: 43px;
+  margin-left: 57px;
+  border-radius: 30px;
+}
+
+.card h1 {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 34px;
+  margin-top: 26px;
+}
+
+.card h2 {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 34px;
+  margin-top: 12px;
+}
+
+.card p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-top: 12px;
+  display: flex;
+  height: 40px;
+}
+
+.card button {
+  margin: 0px;
+  height: 53px;
+  width: 185px;
+  border-radius: 15px;
+  border-color: #ffffff;
+  background-color: transparent;
+  
+  margin-left: 34px;
+  margin-top: 82px;
+  box-shadow: none;
+  border-style: solid;
+}
+
+.card a{
+}
+
+.card button{  
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.card button:active {
+  border-color: #9b9b9b;
+  color: #9b9b9b;
+}
+
+footer {
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+footer a img {
+  width: 145px;
+  height: 79px;
+  margin: 0px;
+}
+
+footer a {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  padding: 0;
+  list-style: none;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.tel a {
+  background-color: #28221f;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.tel {
+  width: 220px;
+  margin-top: 20px;
+}
+
+footer nav {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+  height: 47px;
+  margin-left: 30px;
+  margin-top: 26px;
+  margin-right: 30px;
+}
+
+#burger {
+  display: none;
+}
+
+@media ((min-width: 320px) and (max-width:767px)) {
+  header {
+    width: 100%;
+    align-items: left;
+  }
+
+  .logo {
+    margin-left: auto;
+  }
+
+  header nav {
+    display: none;
+  }
+  .reg {
+    display: none;
+  }
+  header a img {
+    width: 90px;
+    height: 49px;
+  }
+  header a {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+
+  #filtrs {
+    margin: 0px;
+    width: 304px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #filtrs h1 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #filtrs p {
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  #filtrs button {
+    height: 25px;
+    width: 98px;
+    font-size: 12px;
+  }
+
+  #filtrsclose {
+    margin: 0px;
+    width: 304px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #filtrsclose button {
+    height: 25px;
+    width: 98px;
+    font-size: 12px;
+  }
+
+  .price {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .price input {
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .min {
+    width: 76px;
+    height: 19px;
+    font-size: 12px;
+  }
+  .max {
+    width: 76px;
+    height: 19px;
+    font-size: 12px;
+  }
+
+  .sostav {
+    margin: 0px;
+  }
+
+  .sostavc {
+    margin: 0px;
+    height: 19px;
+    width: 76px;
+    font-size: 12px;
+  }
+
+  .sostav form {
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  .card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+    height: 450px;
+  }
+
+  .card img {
+    width: 221px;
+    height: 270px;
+    margin-left: 26px;
+    margin-top: 23px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+    margin-top: 9px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    margin-top: 9px;
+  }
+
+  .card p {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+
+  .card button {
+    height: 28px;
+    width: 98px;
+    margin-top: 12px;    
+    font-size: 12px;
+  }
+
+  .cards {
+    flex-direction: column;
+    width: auto;
+  }
+  footer {
+    flex-direction: column;
+    height: 80px;
+  }
+
+  footer a img {
+    width: 90px;
+    height: 49px;
+  }
+
+  footer nav {
+    margin: 0px;
+  }
+  footer nav a {
+    font-size: 10px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+  .tel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tel a {
+    font-size: 10px;
+    padding: 0px;
+    width: 100px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 15px;
+    text-align: center;
+    padding-left: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .burgermenu {
+    margin-top: 15px;
+    display: block;
+    margin-left: 20px;
+  }
+  .burgermenu a img {
+    height: 18px;
+    width: 32px;
+  }
+
+  #burger {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height:100%;
+    width: 50%;
+    margin-left: auto;
+    background-color: #f5f5f5;
+  }
+
+  #burger a {
+  }
+
+  #burger a img {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .menu a {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 29px;
+    width: 141px;
+    border-radius: 30px;
+    margin-top: 19px;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .burgerreg {
+    display: flex;
+    flex-direction: column;
+  }
+  .burgerreg a {
+    background-color: #7f6a51;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 29px;
+    width: 141px;
+    border-radius: 30px;
+    margin-top: 19px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media ((min-width: 768px) and (max-width:1023px)) {
+  header {
+    width: 100%;
+    align-items: left;
+  }
+
+  .logo {
+    margin-left: auto;
+  }
+  header a img {
+    width: 94px;
+    height: 51px;
+  }
+
+  header nav {
+    width: 486px;
+    margin: 0px;
+    margin-top: 15px;
+    height: 33px;
+    margin-left: auto;
+  }
+  header nav a {
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 6px;
+  }
+
+  .reg {
+    width: 140px;
+    height: 33px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
+  .reg a {
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 34px;
+    margin-top: -2px;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  #filtrs {
+    margin: 0px;
+    width: 615px;
+    height: 138px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #filtrs h1 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #filtrs p {
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  #filtrs button {
+    height: 25px;
+    width: 98px;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  #filtrsclose {
+    margin: 0px;
+    width: 304px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #filtrsclose button {
+    height: 25px;
+    width: 98px;
+    font-size: 12px;
+  }
+
+  .price {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .price input {
+    margin: 0px;
+  }
+
+  .min {
+    width: 76px;
+    height: 19px;
+    font-size: 12px;
+  }
+  .max {
+    width: 76px;
+    height: 19px;
+    font-size: 12px;
+  }
+
+  .sostav {
+    margin: 0px;
+  }
+
+  .sostavc {
+    margin: 0px;
+    height: 19px;
+    width: 76px;
+    font-size: 12px;
+  }
+
+  .sostav form {
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .cards {
+    width: auto;
+  }
+  .card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 477px;
+  }
+
+  .card img {
+    width: 221px;
+    height: 270px;
+    margin-left: 65px;
+    margin-top: 23px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+    margin-top: 9px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    margin-top: 9px;
+  }
+
+  .card p {
+    font-size: 12px;
+    display: flex;
+    height: 70px;
+  }
+
+  .card button {
+    height: 28px;
+    width: 98px;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+  footer {
+    flex-direction: column;
+    height: 120px;
+  }
+
+  footer a img {
+    width: 150px;
+    height: 75px;
+  }
+
+  footer nav {
+    margin: 0px;
+  }
+  footer nav a {
+    font-size: 20px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+  .tel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tel a {
+    font-size: 20px;
+    padding: 0px;
+    width: 190px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    text-align: center;
+    padding-left: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #burger {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    height: 767px;
+    width: 50%;
+    margin-left: auto;
+    background-color: #f5f5f5;
+  }
+
+  #burger a {
+  }
+
+  #burger a img {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .menu a {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 29px;
+    width: 141px;
+    border-radius: 30px;
+    margin-top: 19px;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .burgerreg {
+    display: flex;
+    flex-direction: column;
+  }
+  .burgerreg a {
+    background-color: #7f6a51;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 29px;
+    width: 141px;
+    border-radius: 30px;
+    margin-top: 19px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media ((min-width: 1366px) and (max-width:1366px)){
+  .card{
+    width: 400px;
+  }
+
+  .card img{
+    width: 350px;
+    margin-left: 25px;
+  }
+
+  .tel a{
+    font-size: 14px;
+  }
+  
+  #filtrs{
+    width: 430px;
+  }
+}

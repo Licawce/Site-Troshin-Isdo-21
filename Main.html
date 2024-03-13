@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <script src="scripts.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="burgermenu">
+        <a href="#burger" onclick="openbox('burger'); return false">
+          <img src="Picture/burger.png" />
+        </a>
+      </div>
+      <div id="burger">
+        <a href="#burger" onclick="openbox('burger'); return false">
+          <img src="Picture/burgerexit.png" />
+        </a>
+        <div class="menu">
+          <a href="Main.html">Главная</a>
+          <a href="Company.html">О компании</a>
+          <a href="Contacts.html">Бронь</a>
+          <a href="Cook.html">Как мы готовим</a>
+        </div>
+        <div class="burgerreg">
+          <a href="">Вход</a>
+          <a href="">Регистрация</a>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="Main.html"><img src="Picture/Logo.png" /></a>
+      </div>
+
+      <nav>
+        <a href="Main.html">Главная</a>
+        <a href="Company.html">О компании</a>
+        <a href="Contacts.html">Бронь</a>
+        <a href="Cook.html">Как мы готовим</a>
+      </nav>
+      <div class="reg">
+        <a href="">Вход</a>
+        <a href="">Регистрация</a>
+      </div>
+    </header>
+    <div class="container">
+      <div id="filtrs">
+        <h1>Фильтры</h1>
+        <p>Стоимость</p>
+        <div class="price">
+          от <input class="min" type="text" placeholder="1 000 000" /> до
+          <input class="max" type="text" placeholder="999 999 999 000" />
+        </div>
+        <div class="sostav">
+          <p>Состав блюда</p>
+          <form>
+            <input class="sostavc" type="text" placeholder="опарыши" />
+          </form>
+        </div>
+        <a href="#filtrs" onclick='closebox("filtrs")' ; return false
+          ><button>Свернуть</button></a
+        >
+      </div>
+
+      <div id="filtrsclose">
+        <a href="#filtrs" onclick='closebox("filtrs")' ; return false
+          ><button>Развернуть</button></a
+        >
+      </div>
+
+      <div class="cards">
+        
+          <div class="card">
+          <a href="FOOD1.html"> 
+          <img src="Picture/FOOD1.png" />
+          <h1>Столетние яйца</h1>
+          <h2>130.000.000 руб</h2>
+          <p>
+            Яйца готовятся, закапывая их в глиняную смесь из золы. Их могут
+            подавать в качестве гарнира.
+          </p>
+          <a href="FOOD1.html"><button>Подробнее</button></a>
+          </a>
+          </div>
+       
+
+        <a href="FOOD2.html">
+          <div class="card">
+            <img src="Picture/FOOD2.png" />
+            <h1>Рыба-белка</h1>
+            <h2>900.000 руб</h2>
+            <p>
+              Очищенную от костей рыбу-мандарин обжаривают во фритюре и выкладывают на тарелке.
+            </p>
+            <a href='FOOD2.html'><button>Подробнее</button></a>
+          </div>
+        </a>
+
+        <a href="FOOD3.html">
+          <div class="card">
+            <img src="Picture/FOOD3.png" />
+            <h1>Куколки шелкопряда</h1>
+            <h2>1.488.148 руб</h2>
+            <p>
+              Гусениц сначала замачивают в воде, после чего жарят на сковороде
+              вместе с соусами и овощами.
+            </p>
+            <a href='FOOD3.html'><button>Подробнее</button></a>
+          </div>
+        </a>
+
+      <a href="FOOD4.html">
+        <div class="card">
+          <img src="Picture/FOOD4.png" />
+          <h1>Жаренные скорпионы</h1>
+          <h2>228.228 руб</h2>
+          <p>
+            Скорпионов нанизывают на деревянные палочки и обжаривают во фритюре с большим добавлением специй.
+          </p>
+          <a href='FOOD4.html'><button>Подробнее</button></a>
+        </div>
+      </a>
+      
+      <a href="FOOD5.html">
+        <div class="card">
+          <img src="Picture/FOOD5.png" />
+          <h1>Жаренные тарантулы</h1>
+          <h2>148.888 руб</h2>
+          <p>
+            Тарантулов жарят во фритюре и приправляют специями, что делает их
+            хрустящими.
+          </p>
+          <a href="FOOD5.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+
+      <a href="FOOD6.html">
+        <div class="card">
+          <img src="Picture/FOOD6.png" />
+          <h1>Морские огурцы</h1>
+          <h2>123.456 руб</h2>
+          <p>
+            Варят в бульоне вместе со специями и овощами, получается ароматным,
+            с морским привкусом.
+          </p>
+          <a href="FOOD6.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+
+      <a href="FOOD7.html">
+        <div class="card">
+          <img src="Picture/FOOD7.png" />
+          <h1>Змеиный суп</h1>
+          <h2>789.012 руб</h2>
+          <p>
+            Для приготовления этого супа змею сначала очищают от кожи и удаляют
+            внутренности.
+          </p>
+          <a href="FOOD7.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+      <a href="FOOD8.html">
+        <div class="card">
+          <img src="Picture/FOOD8.png" />
+          <h1>Суп из свиных мозгов</h1>
+          <h2>666.666 руб</h2>
+          <p>Свиные мозги тщательно промывают и обжаривают на сковороде.Затем их добавляют в кипящий бульон.</p>
+          <a href="FOOD8.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+
+      <a href="FOOD9.html">
+        <div class="card">
+          <img src="Picture/FOOD9.png" />
+          <h1>Суп из червей</h1>
+          <h2>555.222 руб</h2>
+          <p>
+            Червей выдавливаю и чистят от грязи, после чего варят с различными
+            специями. Но я бы пробовать не стал.
+          </p>
+          <a href="FOOD9.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+
+      <a href="FOOD10.html">
+        <div class="card">
+          <img src="Picture/FOOD10.png" />
+          <h1>Тофу вековой давности</h1>
+          <h2>828.828 руб</h2>
+          <p>Особый тофу, который выдерживается в течении долгого времени. На вид как мёртвая губка.</p>
+          <a href="FOOD10.html"><button>Подробнее</button></a>
+        </div>
+      </a>
+      </div>
+    </div>
+    <footer>
+      <a href="Main.html"><img src="Picture/Logo.png" /></a>
+
+      <nav>
+        <a href="Main.html">Главная</a>
+        <a href="Company.html">О компании</a>
+        <a href="Contacts.html">Бронь</a>
+        <a href="Cook.html">Как мы готовим</a>
+      </nav>
+      <div class="tel">
+        <a href="tel:+79991112233">+7-999-111-22-33</a>
+      </div>
+    </footer>
+  </body>
+</html>
